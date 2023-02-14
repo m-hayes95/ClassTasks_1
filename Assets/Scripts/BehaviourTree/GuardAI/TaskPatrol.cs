@@ -17,7 +17,7 @@ public class TaskPatrol : Node
     
     private bool _waiting = false;
 
-    [SerializeField] private float speed = 3f;
+    //[SerializeField] private float speed = 3f; 
 
     public TaskPatrol(Transform transform, Transform[] waypoints)
     {
@@ -55,7 +55,7 @@ public class TaskPatrol : Node
             }
             else
             {
-                _transform.position = Vector3.MoveTowards(_transform.position, wp.position, speed * Time.deltaTime);
+                _transform.position = Vector3.MoveTowards(_transform.position, wp.position, GuardBT.speed * Time.deltaTime);
                 _transform.LookAt(wp.position);             
             }
         }
