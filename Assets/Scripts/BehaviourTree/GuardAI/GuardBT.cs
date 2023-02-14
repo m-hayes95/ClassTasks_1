@@ -12,3 +12,7 @@ public class GuardBT : Tree
         return root;
     }
 }
+
+//https://docs.google.com/document/d/18MBDCwuU6GghnlRZVGI9x8ay2w4q2fxXX4XwQxx91M4/edit
+//https://github.com/HamieSAE/Handouts/blob/main/Week%204/Behavior%20Tree%20-%20Part%202/GuardBT.cs
+
