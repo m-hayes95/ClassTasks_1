@@ -656,3 +656,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1786389924}
   enemy: {fileID: 974877114}
+  distanceCheckPoint1: 20
+  distanceCheckPoint2: 10
+  distanceCheckPoint3: 1
+  checkPoint1: 0
+  checkPoint2: 0
+  checkPoint3: 0
+  enemyRenderer: {fileID: 974877116}
