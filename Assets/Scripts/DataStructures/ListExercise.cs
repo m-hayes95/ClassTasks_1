@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class ListExercise : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
         //Define & initalize list of ints.
         List<int> numbers = new List<int> ();
