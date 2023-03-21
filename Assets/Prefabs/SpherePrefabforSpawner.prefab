@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 4758435092982266531}
   - component: {fileID: 7018364770887434219}
   - component: {fileID: 613044950274484851}
+  - component: {fileID: 1021749812623990417}
   m_Layer: 0
   m_Name: SpherePrefabforSpawner
   m_TagString: Untagged
@@ -28,7 +29,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8253410459572460714}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.34583798, y: 0.7015075, z: 1.0819122}
+  m_LocalPosition: {x: 0.34583798, y: 0.7015075, z: 2494.8503}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -112,3 +113,15 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1021749812623990417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8253410459572460714}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7414b14651a41a4d8c1bba4df149d95, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
